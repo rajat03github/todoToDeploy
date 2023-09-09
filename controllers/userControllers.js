@@ -1,4 +1,5 @@
 import User from "../models/users.js";
+import ErrorHandler from "../middlewares/error.js";
 import bcrypt from "bcrypt";
 import { sendCookie } from "../utils/features.js";
 
